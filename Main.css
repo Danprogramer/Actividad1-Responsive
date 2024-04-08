@@ -1,0 +1,145 @@
+@media (min-width:992px) {
+    .footer {
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background-color: gold;
+        box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+        justify-content: space-between;
+    }
+
+    .Imagen img {
+        width: 50px;
+        height: 50px;
+        padding-left: 20px;
+    }
+
+    .Contacto {
+        padding-right: 20px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .subheader {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: gold;
+        height: 40px;
+
+    }
+
+    .subheader a {
+        text-decoration: none;
+        width: 20%;
+        height: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .subheader a:hover {
+        background-color: goldenrod;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    .side {
+        width: fit-content;
+        display: block;
+        margin-left: 20px;
+        justify-content: left;
+        font-size: small;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    body {
+        background-color: forestgreen;
+    }
+}
+
+@media (max-width:575px) {
+    .footer {
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        background-color: gold;
+        box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+        justify-content: space-between;
+    }
+
+    .Imagen img {
+        width: 8vw;
+        height: 8vh;
+        padding-left: 3vw;
+    }
+
+    .Contacto {
+        padding-right: 2vw;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .subheader {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: gold;
+        height: 10vh;
+
+    }
+
+    .subheader a {
+        text-decoration: none;
+        width: 20%;
+        height: 4vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .subheader a:hover {
+        background-color: goldenrod;
+        height: 10vh;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    .side {
+        width: 20vw;
+        display: block;
+        margin-left: 2vw;
+        justify-content: left;
+        font-size: small;
+    }
+}
+
